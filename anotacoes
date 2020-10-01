@@ -33,3 +33,4 @@ IMPORTANDO IMAGENS
 
 CLASS COMPONENTS
 . yarn add @babel/plugin-proposal-class-properties -D
+. Imutabilidade
