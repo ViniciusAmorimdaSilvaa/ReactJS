@@ -1,0 +1,20 @@
+Configurando Estrutura do projeto ReactJS
+. mkdir modulo04
+. yarn init -y
+. yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli -D
+. yarn add react react-dom
+. criar arquivo babel.config.js
+	."@babel/preset-env": responsável por alterar as funcionalidade do JavaScript que o navegador ainda não entede(import/export, arrowfunctions, classes...)
+	. "@babel/preset-react": vai transformar do navegador(JSX por exemplo)
+. criar arquivo webpack.config.js
+. output: onde vai jogar o bundle: código transpilado pelo webpack(com as funcionalidades que o JavaScript já entende)
+. yarn add babel-loader -D
+. build em scripts -> passar o JS de forma que o navegador entenda
+	."scripts": {
+	    "build": "webpack --mode development"
+	  },
+. yarn build
+. yarn webpack-dev-server -D: Quando alterar um código JS o servidor reiniciar;
+. no package.json em scripts : "build": "webpack-dev-server --mode development"
+. mode --development deixa o bundle legivel, sem ele ficar mimificado(pra produção);
+	. "build": webpack --mode production"
