@@ -29,4 +29,7 @@ IMPORTANDO CSS
 
 
 IMPORTANDO IMAGENS
+. yarn add file-loader -D
 
+CLASS COMPONENTS
+. yarn add @babel/plugin-proposal-class-properties -D
