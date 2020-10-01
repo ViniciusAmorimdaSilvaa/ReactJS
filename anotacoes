@@ -18,3 +18,15 @@ Configurando Estrutura do projeto ReactJS
 . no package.json em scripts : "build": "webpack-dev-server --mode development"
 . mode --development deixa o bundle legivel, sem ele ficar mimificado(pra produção);
 	. "build": webpack --mode production"
+	
+CRIANDO COMPONENTE RAIZ
+
+IMPORTANDO CSS
+. Dois novos loader's 
+	. yarn add style-loader css-loader
+. style-loader: importar arquivos css
+. css-loader: poder importar uma imagem no css
+
+
+IMPORTANDO IMAGENS
+
