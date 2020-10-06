@@ -34,3 +34,9 @@ IMPORTANDO IMAGENS
 CLASS COMPONENTS
 . yarn add @babel/plugin-proposal-class-properties -D
 . Imutabilidade
+
+DEFAULT PROPS & PROPTYPE
+. yarn add prop-types
+
+CICLO DE VIDA DO COMPONENTE
+. LocalStorage -> Inspecionar -> Applications 
